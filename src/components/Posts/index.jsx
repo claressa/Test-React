@@ -1,6 +1,6 @@
 import { PostCard } from "../PostCard"
 import './styles.css'
-export const Posts = ({ posts }) =>{
+export const Posts = ({ posts = [] }) =>{
 
     return(
         
