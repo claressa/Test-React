@@ -1,12 +1,7 @@
-import { render, screen } from '@testing-library/react';
-
+import { render, screen } from '@testing-library/react'
 
 describe('<Home />', () => {
-  it('test one', ()=>{
+  it('test one', () => {
     expect(1).toBe(1)
   })
-
-
 })
-
-
